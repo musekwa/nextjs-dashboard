@@ -16,7 +16,7 @@ export default function EditInvoiceForm({
   invoice,
   customers,
 }: {
-  invoice?: InvoiceForm;
+  invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
 
